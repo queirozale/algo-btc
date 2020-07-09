@@ -2,10 +2,8 @@ from datetime import date, timedelta
 import pandas as pd
 import yfinance as yf
 import numpy as np
-# from keras.models import Sequential
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
-# from keras.layers import Dense, LSTM
 import os
 
 def getFeatures(df, index):
