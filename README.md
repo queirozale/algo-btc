@@ -20,4 +20,5 @@ Five models were developed:
 
 All the models has as input the 7 last observations of BTC value
 
-![picture](val_results.png)
+![picture](images/val_results.png)
+![picture](images/signals.png)
