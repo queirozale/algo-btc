@@ -113,4 +113,4 @@ def main(action):
         print("Action not found")
 
 if __name__ == "__main__":
-    main('get_signals')
+    main('validation')

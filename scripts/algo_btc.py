@@ -153,7 +153,7 @@ class Modelling:
 
     def LSTM_net(self):
         print("==========Starting LSTM Network...==========")
-        NEURONS, BATCH_SIZE, NB_EPOCH = 4, 1, 20
+        NEURONS, BATCH_SIZE, NB_EPOCH = 6, 1, 50
         X_train = self.X_train.reshape(self.X_train.shape[0], 1, self.X_train.shape[1])
         model = Sequential()
         model.add(LSTM(NEURONS, batch_input_shape=(BATCH_SIZE, X_train.shape[1], 
